@@ -1,0 +1,1594 @@
+customer_colection=
+{
+    "_id": {
+        "$oid": "65ed939014d9af7107f3cce1"
+    },
+    "customerName": "KUMAR",
+    "displayName": "KUMAR",
+    "customerType": "RETAIL",
+    "customerArea": "-",
+    "mobile": "9994965561",
+    "dateOfBirth": null,
+    "anniversaryDate": null,
+    "gstNumber": null,
+    "otherDocumentProof": [],
+    "defaultGroups": [],
+    "priceMarkupGroups": [],
+    "creditLimitGroups": [],
+    "customerGroups": [],
+    "modeOfCommunication": [],
+    "hasOutStandingBalance": false,
+    "outStandingBalanceNotes": null,
+    "outStandingOpeningBalance": 0,
+    "outStandingCurrentBalance": 0,
+    "outStandingOpeningBillCount": 0,
+    "outStandingBillCount": 0,
+    "walletBalance": 0,
+    "loyaltyBalancePoint": 36,
+    "creditNoteBalance": 0,
+    "status": true,
+    "approvalStatus": "auto approved",
+    "gstNumberProof": [],
+    "aadharNumberProof": [],
+    "panNumberProof": [],
+    "contactPersons": [],
+    "additionalContactPersons": [],
+    "deliveryAddresses": [],
+    "billingAddresses": [],
+    "mappedStores": [
+        {
+            "storeId": {
+                "$oid": "65ee870721efb6a7300c945a"
+            },
+            "storeName": "Annur mill outlet ",
+            "isFavorite": false,
+            "_id": {
+                "$oid": "661e49e81040932e86bdd7f0"
+            }
+        },
+        {
+            "storeId": {
+                "$oid": "662caaed9c8a201ca89fe695"
+            },
+            "storeName": "Attayapalayam",
+            "isFavorite": false,
+            "_id": {
+                "$oid": "6693b1e2bbff2e4430678ac7"
+            }
+        },
+        {
+            "storeId": {
+                "$oid": "67dd2b5eca876a03d87c401b"
+            },
+            "storeName": "Annur SS Mart - Thekkalur",
+            "isFavorite": false,
+            "_id": {
+                "$oid": "683d4c7db92c53938fc12cff"
+            }
+        }
+    ],
+    "notification": [],
+    "communicationPreference": [],
+    "outStandingPaymentTransactions": [],
+    "createdAt": {
+        "$date": "2024-03-10T11:03:44.472Z"
+    },
+    "updatedAt": {
+        "$date": "2026-01-11T04:30:00.302Z"
+    }
+}
+
+master_product collection={
+    "_id": {
+        "$oid": "65ed9225f05b9a1188ffd904"
+    },
+    "productName": "Thirukalyanaraja kolam ponni 1kg",
+    "productNameId": {
+        "$oid": "65ed8f85f47f63e48c31ad52"
+    },
+    "displayName": "Thirukalyanaraja kolam ponni 1kg",
+    "productCategoryId": {
+        "$oid": "65ed8ba77e37aaa029a1efae"
+    },
+    "businessUnitId": {
+        "$oid": "63358fed539fc31b2a10c1ff"
+    },
+    "tags": [],
+    "productCode": "1",
+    "inventoryType": "Product",
+    "unit": {
+        "unitId": {
+            "$oid": "61fa5c1273a4aae8d89e13c9"
+        },
+        "unitName": "kilogram",
+        "unitSymbol": "kg",
+        "unitSize": 1
+    },
+    "isPurchaseOnly": false,
+    "isVariableSize": false,
+    "hsnCode": "10063010",
+    "brand": {
+        "brandId": {
+            "$oid": "65ed8ea1f47f63e48c319058"
+        },
+        "brandName": "Thirukalyanaraja"
+    },
+    "manufacturer": {
+        "manufacturerId": {
+            "$oid": "65ed8f43f47f63e48c319a22"
+        },
+        "manufacturerName": "Annur SS"
+    },
+    "minimumStock": 5,
+    "maximumStock": 150,
+    "isWhiteLabel": false,
+    "isHSNReportable": false,
+    "package": {
+        "weight": {
+            "unit": {
+                "unitName": null,
+                "unitCategory": null,
+                "unitSymbol": null
+            },
+            "value": null
+        },
+        "dimensions": {
+            "unit": {
+                "unitName": null,
+                "unitCategory": null,
+                "unitSymbol": null
+            },
+            "height": null,
+            "length": null,
+            "width": null
+        }
+    },
+    "salesTaxes": {
+        "intraStateTaxes": [
+            {
+                "taxId": {
+                    "$oid": "633ea081d7f9288a4d42cd7b"
+                },
+                "taxRegistrarName": "GST",
+                "taxPercentage": 2.5,
+                "taxGroup": "CGST"
+            },
+            {
+                "taxId": {
+                    "$oid": "633ea079d7f9288a4d42cd7a"
+                },
+                "taxRegistrarName": "GST",
+                "taxPercentage": 2.5,
+                "taxGroup": "SGST"
+            }
+        ],
+        "interStateTaxes": [
+            {
+                "taxId": {
+                    "$oid": "633ea08ad7f9288a4d42cd7c"
+                },
+                "taxRegistrarName": "GST",
+                "taxPercentage": 5,
+                "taxGroup": "IGST"
+            }
+        ],
+        "interNationalTaxes": []
+    },
+    "purchaseTaxes": {
+        "intraStateTaxes": [
+            {
+                "taxId": {
+                    "$oid": "633eab1ed7f9288a4d42cd8c"
+                },
+                "taxRegistrarName": "GST",
+                "taxPercentage": 0,
+                "taxGroup": "Nil"
+            }
+        ],
+        "interStateTaxes": [
+            {
+                "taxId": {
+                    "$oid": "633eab23d7f9288a4d42cd8d"
+                },
+                "taxRegistrarName": "GST",
+                "taxPercentage": 0,
+                "taxGroup": "Nil"
+            }
+        ],
+        "interNationalTaxes": []
+    },
+    "productIdentifier": "10063010",
+    "basePurchasePrice": 75,
+    "baseSellingPrice": 78.0952380952381,
+    "unitMaximumRetailPrice": 101,
+    "scanCodes": null,
+    "isReturnable": false,
+    "isAllowedOpenPackReturn": false,
+    "toAllWarehouses": false,
+    "toAllStores": true,
+    "isExpirable": true,
+    "selfLifeDays": 730,
+    "selfLifeIn": "Days",
+    "defaultMarkupPercentage": null,
+    "minSelfLifeDays": null,
+    "minselfLifeIn": "Days",
+    "allowStockConversion": false,
+    "status": true,
+    "isDeleteLocked": false,
+    "approvalStatus": "auto approved",
+    "attributes": [],
+    "createdAt": {
+        "$date": "2024-03-10T10:57:41.168Z"
+    },
+    "updatedAt": {
+        "$date": "2025-12-03T05:18:37.226Z"
+    },
+    "warehouseWiseMinMaxUcap": [
+        {
+            "warehouseId": {
+                "$oid": "65ee85d021efb6a7300c93e7"
+            },
+            "minimumStock": 144,
+            "maximumStock": 180,
+            "upperCapMaximunStock": 225
+        }
+    ],
+    "warehousesMapped": [
+        {
+            "$oid": "65ee85d021efb6a7300c93e7"
+        }
+    ],
+    "grossROIAmount": 0,
+    "grossROIPercentage": 0,
+    "netROIAmount": 0,
+    "netROIPercentage": 0,
+    "processedByScript": true,
+    "lastBasePurchasePrice": 75,
+    "lastBaseSellingPrice": 78.0952380952381,
+    "lastPurchasePrice": 75,
+    "lastSellingPrice": 82
+}
+
+product collection [
+    {
+        "_id": {
+            "$oid": "65ee955321efb6a7300cf400"
+        },
+        "inventoryType": "Product",
+        "productCategoryId": {
+            "$oid": "65ed8ba77e37aaa029a1efae"
+        },
+        "masterProductId": {
+            "$oid": "65ed9225f05b9a1188ffd90f"
+        },
+        "productName": "Thirukalyanaraja kolam ponni 5kg",
+        "displayName": "Thirukalyanaraja kolam ponni 5kg",
+        "unit": {
+            "unitId": {
+                "$oid": "61fa5c1273a4aae8d89e13c9"
+            },
+            "unitName": "kilogram",
+            "unitSymbol": "kg",
+            "unitSize": 5
+        },
+        "batchNumber": "20240311105311",
+        "unitMaximumRetailPrice": 498,
+        "basePurchasePrice": 375.5,
+        "purchaseTaxes": [
+            {
+                "taxId": {
+                    "$oid": "633eab1ed7f9288a4d42cd8c"
+                },
+                "taxGroup": "Nil",
+                "taxRegistrarName": "GST",
+                "taxPercentage": 0,
+                "_id": {
+                    "$oid": "65ee955321efb6a7300cf401"
+                }
+            },
+            {
+                "taxId": {
+                    "$oid": "633eab23d7f9288a4d42cd8d"
+                },
+                "taxGroup": "Nil",
+                "taxRegistrarName": "GST",
+                "taxPercentage": 0,
+                "_id": {
+                    "$oid": "65ee955321efb6a7300cf402"
+                }
+            }
+        ],
+        "stockHolder": "Store",
+        "storeId": {
+            "$oid": "65ee870721efb6a7300c945a"
+        },
+        "warehouseId": null,
+        "bundleGiftItem": null,
+        "isPurchaseOnly": false,
+        "isVariableSize": false,
+        "printTemplateId": null,
+        "isExpirable": true,
+        "packedDate": {
+            "$date": "2024-03-01T22:00:00.000Z"
+        },
+        "expiryDate": {
+            "$date": "2025-02-24T22:00:00.000Z"
+        },
+        "receivingStock": 17,
+        "hasVendorScanCode": false,
+        "isUniqueScanCode": false,
+        "products": [
+            {
+                "saleBillId": {
+                    "$oid": "65efe2f78602fa2797a9247d"
+                },
+                "saleBillNumber": "SB-AMO-2024-044",
+                "sellingPrice": 394.9995,
+                "soldByScancodeMatched": true,
+                "taxes": [
+                    {
+                        "taxId": {
+                            "$oid": "633ea081d7f9288a4d42cd7b"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "CGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65efe3628602fa2797a92573"
+                        }
+                    },
+                    {
+                        "taxId": {
+                            "$oid": "633ea079d7f9288a4d42cd7a"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "SGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65efe3628602fa2797a92574"
+                        }
+                    }
+                ],
+                "returnBillId": null,
+                "returnBillNumber": null,
+                "isPackOpened": false,
+                "returnUnitSize": null,
+                "stockMoveRequestId": null,
+                "scanCode": "20240311105311",
+                "baseSellingPrice": 376.19,
+                "stockType": "Sale",
+                "productStatus": "Sold",
+                "createdVia": "Batches and pricing",
+                "inwardId": null,
+                "cellName": null,
+                "blockId": null,
+                "cellId": null,
+                "storageBlockName": null,
+                "metaData": {
+                    "saleBillId": {
+                        "$oid": "65efe2f78602fa2797a9247d"
+                    },
+                    "billNumber": "SB-AMO-2024-044",
+                    "saleBillType": "SalesBill"
+                },
+                "updatedAt": {
+                    "$date": "2024-03-12T05:08:50.714Z"
+                },
+                "_id": {
+                    "$oid": "65ee955321efb6a7300cf403"
+                }
+            },
+            {
+                "saleBillId": {
+                    "$oid": "65f17bc1e821af4b314b34da"
+                },
+                "saleBillNumber": "SB-AMO-2024-130",
+                "sellingPrice": 394.9995,
+                "soldByScancodeMatched": true,
+                "taxes": [
+                    {
+                        "taxId": {
+                            "$oid": "633ea081d7f9288a4d42cd7b"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "CGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f17cbde821af4b314b35d9"
+                        }
+                    },
+                    {
+                        "taxId": {
+                            "$oid": "633ea079d7f9288a4d42cd7a"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "SGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f17cbde821af4b314b35da"
+                        }
+                    }
+                ],
+                "returnBillId": null,
+                "returnBillNumber": null,
+                "isPackOpened": false,
+                "returnUnitSize": null,
+                "stockMoveRequestId": null,
+                "scanCode": "20240311105311",
+                "baseSellingPrice": 376.19,
+                "stockType": "Sale",
+                "productStatus": "Sold",
+                "createdVia": "Batches and pricing",
+                "inwardId": null,
+                "cellName": null,
+                "blockId": null,
+                "cellId": null,
+                "storageBlockName": null,
+                "metaData": {
+                    "saleBillId": {
+                        "$oid": "65f17bc1e821af4b314b34da"
+                    },
+                    "billNumber": "SB-AMO-2024-130",
+                    "saleBillType": "SalesBill"
+                },
+                "updatedAt": {
+                    "$date": "2024-03-13T10:15:25.804Z"
+                },
+                "_id": {
+                    "$oid": "65ee955321efb6a7300cf404"
+                }
+            },
+            {
+                "saleBillId": {
+                    "$oid": "65f325b7a291d95e72d23f0b"
+                },
+                "saleBillNumber": "SB-AMO-2024-221",
+                "sellingPrice": 394.9995,
+                "soldByScancodeMatched": true,
+                "taxes": [
+                    {
+                        "taxId": {
+                            "$oid": "633ea081d7f9288a4d42cd7b"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "CGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f3263aa291d95e72d241a8"
+                        }
+                    },
+                    {
+                        "taxId": {
+                            "$oid": "633ea079d7f9288a4d42cd7a"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "SGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f3263aa291d95e72d241a9"
+                        }
+                    }
+                ],
+                "returnBillId": null,
+                "returnBillNumber": null,
+                "isPackOpened": false,
+                "returnUnitSize": null,
+                "stockMoveRequestId": null,
+                "scanCode": "20240311105311",
+                "baseSellingPrice": 376.19,
+                "stockType": "Sale",
+                "productStatus": "Sold",
+                "createdVia": "Batches and pricing",
+                "inwardId": null,
+                "cellName": null,
+                "blockId": null,
+                "cellId": null,
+                "storageBlockName": null,
+                "metaData": {
+                    "saleBillId": {
+                        "$oid": "65f325b7a291d95e72d23f0b"
+                    },
+                    "billNumber": "SB-AMO-2024-221",
+                    "saleBillType": "SalesBill"
+                },
+                "updatedAt": {
+                    "$date": "2024-03-14T16:30:50.051Z"
+                },
+                "_id": {
+                    "$oid": "65ee955321efb6a7300cf405"
+                }
+            },
+            {
+                "saleBillId": {
+                    "$oid": "65f3fa1ba291d95e72d3c52c"
+                },
+                "saleBillNumber": "SB-AMO-2024-241",
+                "sellingPrice": 394.9995,
+                "soldByScancodeMatched": true,
+                "taxes": [
+                    {
+                        "taxId": {
+                            "$oid": "633ea081d7f9288a4d42cd7b"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "CGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f3fa46a291d95e72d3c5af"
+                        }
+                    },
+                    {
+                        "taxId": {
+                            "$oid": "633ea079d7f9288a4d42cd7a"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "SGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f3fa46a291d95e72d3c5b0"
+                        }
+                    }
+                ],
+                "returnBillId": null,
+                "returnBillNumber": null,
+                "isPackOpened": false,
+                "returnUnitSize": null,
+                "stockMoveRequestId": null,
+                "scanCode": "20240311105311",
+                "baseSellingPrice": 376.19,
+                "stockType": "Sale",
+                "productStatus": "Sold",
+                "createdVia": "Batches and pricing",
+                "inwardId": null,
+                "cellName": null,
+                "blockId": null,
+                "cellId": null,
+                "storageBlockName": null,
+                "metaData": {
+                    "saleBillId": {
+                        "$oid": "65f3fa1ba291d95e72d3c52c"
+                    },
+                    "billNumber": "SB-AMO-2024-241",
+                    "saleBillType": "SalesBill"
+                },
+                "updatedAt": {
+                    "$date": "2024-03-15T07:35:33.930Z"
+                },
+                "_id": {
+                    "$oid": "65ee955321efb6a7300cf406"
+                }
+            },
+            {
+                "saleBillId": {
+                    "$oid": "65f57fbda291d95e72daf531"
+                },
+                "saleBillNumber": "SB-AMO-2024-336",
+                "sellingPrice": 394.9995,
+                "soldByScancodeMatched": true,
+                "taxes": [
+                    {
+                        "taxId": {
+                            "$oid": "633ea081d7f9288a4d42cd7b"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "CGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f58160a291d95e72db1b03"
+                        }
+                    },
+                    {
+                        "taxId": {
+                            "$oid": "633ea079d7f9288a4d42cd7a"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "SGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f58160a291d95e72db1b04"
+                        }
+                    }
+                ],
+                "returnBillId": null,
+                "returnBillNumber": null,
+                "isPackOpened": false,
+                "returnUnitSize": null,
+                "stockMoveRequestId": null,
+                "scanCode": "20240311105311",
+                "baseSellingPrice": 376.19,
+                "stockType": "Sale",
+                "productStatus": "Sold",
+                "createdVia": "Batches and pricing",
+                "inwardId": null,
+                "cellName": null,
+                "blockId": null,
+                "cellId": null,
+                "storageBlockName": null,
+                "metaData": {
+                    "saleBillId": {
+                        "$oid": "65f57fbda291d95e72daf531"
+                    },
+                    "billNumber": "SB-AMO-2024-336",
+                    "saleBillType": "SalesBill"
+                },
+                "updatedAt": {
+                    "$date": "2024-03-16T11:24:16.820Z"
+                },
+                "_id": {
+                    "$oid": "65ee955321efb6a7300cf407"
+                }
+            },
+            {
+                "saleBillId": {
+                    "$oid": "65f57fbda291d95e72daf531"
+                },
+                "saleBillNumber": "SB-AMO-2024-336",
+                "sellingPrice": 394.9995,
+                "soldByScancodeMatched": true,
+                "taxes": [
+                    {
+                        "taxId": {
+                            "$oid": "633ea081d7f9288a4d42cd7b"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "CGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f58160a291d95e72db1b03"
+                        }
+                    },
+                    {
+                        "taxId": {
+                            "$oid": "633ea079d7f9288a4d42cd7a"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "SGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f58160a291d95e72db1b04"
+                        }
+                    }
+                ],
+                "returnBillId": null,
+                "returnBillNumber": null,
+                "isPackOpened": false,
+                "returnUnitSize": null,
+                "stockMoveRequestId": null,
+                "scanCode": "20240311105311",
+                "baseSellingPrice": 376.19,
+                "stockType": "Sale",
+                "productStatus": "Sold",
+                "createdVia": "Batches and pricing",
+                "inwardId": null,
+                "cellName": null,
+                "blockId": null,
+                "cellId": null,
+                "storageBlockName": null,
+                "metaData": {
+                    "saleBillId": {
+                        "$oid": "65f57fbda291d95e72daf531"
+                    },
+                    "billNumber": "SB-AMO-2024-336",
+                    "saleBillType": "SalesBill"
+                },
+                "updatedAt": {
+                    "$date": "2024-03-16T11:24:16.820Z"
+                },
+                "_id": {
+                    "$oid": "65ee955321efb6a7300cf408"
+                }
+            },
+            {
+                "saleBillId": {
+                    "$oid": "65f6e6d7e944112706766a75"
+                },
+                "saleBillNumber": "SB-AMO-2024-500",
+                "sellingPrice": 394.9995,
+                "soldByScancodeMatched": true,
+                "taxes": [
+                    {
+                        "taxId": {
+                            "$oid": "633ea081d7f9288a4d42cd7b"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "CGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f6e6efe944112706766af8"
+                        }
+                    },
+                    {
+                        "taxId": {
+                            "$oid": "633ea079d7f9288a4d42cd7a"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "SGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f6e6efe944112706766af9"
+                        }
+                    }
+                ],
+                "returnBillId": null,
+                "returnBillNumber": null,
+                "isPackOpened": false,
+                "returnUnitSize": null,
+                "stockMoveRequestId": null,
+                "scanCode": "20240311105311",
+                "baseSellingPrice": 376.19,
+                "stockType": "Sale",
+                "productStatus": "Sold",
+                "createdVia": "Batches and pricing",
+                "inwardId": null,
+                "cellName": null,
+                "blockId": null,
+                "cellId": null,
+                "storageBlockName": null,
+                "metaData": {
+                    "saleBillId": {
+                        "$oid": "65f6e6d7e944112706766a75"
+                    },
+                    "billNumber": "SB-AMO-2024-500",
+                    "saleBillType": "SalesBill"
+                },
+                "updatedAt": {
+                    "$date": "2024-03-17T12:49:51.085Z"
+                },
+                "_id": {
+                    "$oid": "65ee955321efb6a7300cf409"
+                }
+            },
+            {
+                "saleBillId": {
+                    "$oid": "65f85489380c2ae80a082aa0"
+                },
+                "saleBillNumber": "SB-AMO-2024-635",
+                "sellingPrice": 394.9995,
+                "soldByScancodeMatched": true,
+                "taxes": [
+                    {
+                        "taxId": {
+                            "$oid": "633ea081d7f9288a4d42cd7b"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "CGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f854dc380c2ae80a082b4f"
+                        }
+                    },
+                    {
+                        "taxId": {
+                            "$oid": "633ea079d7f9288a4d42cd7a"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "SGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f854dc380c2ae80a082b50"
+                        }
+                    }
+                ],
+                "returnBillId": null,
+                "returnBillNumber": null,
+                "isPackOpened": false,
+                "returnUnitSize": null,
+                "stockMoveRequestId": null,
+                "scanCode": "20240311105311",
+                "baseSellingPrice": 376.19,
+                "stockType": "Sale",
+                "productStatus": "Sold",
+                "createdVia": "Batches and pricing",
+                "inwardId": null,
+                "cellName": null,
+                "blockId": null,
+                "cellId": null,
+                "storageBlockName": null,
+                "metaData": {
+                    "saleBillId": {
+                        "$oid": "65f85489380c2ae80a082aa0"
+                    },
+                    "billNumber": "SB-AMO-2024-635",
+                    "saleBillType": "SalesBill"
+                },
+                "updatedAt": {
+                    "$date": "2024-03-18T14:51:08.581Z"
+                },
+                "_id": {
+                    "$oid": "65ee955321efb6a7300cf40a"
+                }
+            },
+            {
+                "saleBillId": {
+                    "$oid": "65f96f03457b1c9c5a7d9501"
+                },
+                "saleBillNumber": "SB-AMO-2024-694",
+                "sellingPrice": 394.9995,
+                "soldByScancodeMatched": true,
+                "taxes": [
+                    {
+                        "taxId": {
+                            "$oid": "633ea081d7f9288a4d42cd7b"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "CGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f96f87457b1c9c5a7d96fd"
+                        }
+                    },
+                    {
+                        "taxId": {
+                            "$oid": "633ea079d7f9288a4d42cd7a"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "SGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f96f87457b1c9c5a7d96fe"
+                        }
+                    }
+                ],
+                "returnBillId": null,
+                "returnBillNumber": null,
+                "isPackOpened": false,
+                "returnUnitSize": null,
+                "stockMoveRequestId": null,
+                "scanCode": "20240311105311",
+                "baseSellingPrice": 376.19,
+                "stockType": "Sale",
+                "productStatus": "Sold",
+                "createdVia": "Batches and pricing",
+                "inwardId": null,
+                "cellName": null,
+                "blockId": null,
+                "cellId": null,
+                "storageBlockName": null,
+                "metaData": {
+                    "saleBillId": {
+                        "$oid": "65f96f03457b1c9c5a7d9501"
+                    },
+                    "billNumber": "SB-AMO-2024-694",
+                    "saleBillType": "SalesBill"
+                },
+                "updatedAt": {
+                    "$date": "2024-03-19T10:57:11.019Z"
+                },
+                "_id": {
+                    "$oid": "65ee955321efb6a7300cf40b"
+                }
+            },
+            {
+                "saleBillId": {
+                    "$oid": "65f970c6457b1c9c5a7d9e5e"
+                },
+                "saleBillNumber": "SB-AMO-2024-695",
+                "sellingPrice": 394.9995,
+                "soldByScancodeMatched": true,
+                "taxes": [
+                    {
+                        "taxId": {
+                            "$oid": "633ea081d7f9288a4d42cd7b"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "CGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f97112457b1c9c5a7d9f0a"
+                        }
+                    },
+                    {
+                        "taxId": {
+                            "$oid": "633ea079d7f9288a4d42cd7a"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "SGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f97112457b1c9c5a7d9f0b"
+                        }
+                    }
+                ],
+                "returnBillId": null,
+                "returnBillNumber": null,
+                "isPackOpened": false,
+                "returnUnitSize": null,
+                "stockMoveRequestId": null,
+                "scanCode": "20240311105311",
+                "baseSellingPrice": 376.19,
+                "stockType": "Sale",
+                "productStatus": "Sold",
+                "createdVia": "Batches and pricing",
+                "inwardId": null,
+                "cellName": null,
+                "blockId": null,
+                "cellId": null,
+                "storageBlockName": null,
+                "metaData": {
+                    "saleBillId": {
+                        "$oid": "65f970c6457b1c9c5a7d9e5e"
+                    },
+                    "billNumber": "SB-AMO-2024-695",
+                    "saleBillType": "SalesBill"
+                },
+                "updatedAt": {
+                    "$date": "2024-03-19T11:03:46.688Z"
+                },
+                "_id": {
+                    "$oid": "65ee955321efb6a7300cf40c"
+                }
+            },
+            {
+                "saleBillId": {
+                    "$oid": "65f9a847ce4719203cae0882"
+                },
+                "saleBillNumber": "SB-AMO-2024-738",
+                "sellingPrice": 394.9995,
+                "soldByScancodeMatched": true,
+                "taxes": [
+                    {
+                        "taxId": {
+                            "$oid": "633ea081d7f9288a4d42cd7b"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "CGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f9a932ce4719203cae1325"
+                        }
+                    },
+                    {
+                        "taxId": {
+                            "$oid": "633ea079d7f9288a4d42cd7a"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "SGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f9a932ce4719203cae1326"
+                        }
+                    }
+                ],
+                "returnBillId": null,
+                "returnBillNumber": null,
+                "isPackOpened": false,
+                "returnUnitSize": null,
+                "stockMoveRequestId": null,
+                "scanCode": "20240311105311",
+                "baseSellingPrice": 376.19,
+                "stockType": "Sale",
+                "productStatus": "Sold",
+                "createdVia": "Batches and pricing",
+                "inwardId": null,
+                "cellName": null,
+                "blockId": null,
+                "cellId": null,
+                "storageBlockName": null,
+                "metaData": {
+                    "saleBillId": {
+                        "$oid": "65f9a847ce4719203cae0882"
+                    },
+                    "billNumber": "SB-AMO-2024-738",
+                    "saleBillType": "SalesBill"
+                },
+                "updatedAt": {
+                    "$date": "2024-03-19T15:03:14.629Z"
+                },
+                "_id": {
+                    "$oid": "65ee955321efb6a7300cf40d"
+                }
+            },
+            {
+                "saleBillId": {
+                    "$oid": "65f9ac5ace4719203cae220a"
+                },
+                "saleBillNumber": "SB-AMO-2024-742",
+                "sellingPrice": 394.9995,
+                "soldByScancodeMatched": true,
+                "taxes": [
+                    {
+                        "taxId": {
+                            "$oid": "633ea081d7f9288a4d42cd7b"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "CGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f9ac97ce4719203cae2336"
+                        }
+                    },
+                    {
+                        "taxId": {
+                            "$oid": "633ea079d7f9288a4d42cd7a"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "SGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65f9ac97ce4719203cae2337"
+                        }
+                    }
+                ],
+                "returnBillId": null,
+                "returnBillNumber": null,
+                "isPackOpened": false,
+                "returnUnitSize": null,
+                "stockMoveRequestId": null,
+                "scanCode": "20240311105311",
+                "baseSellingPrice": 376.19,
+                "stockType": "Sale",
+                "productStatus": "Sold",
+                "createdVia": "Batches and pricing",
+                "inwardId": null,
+                "cellName": null,
+                "blockId": null,
+                "cellId": null,
+                "storageBlockName": null,
+                "metaData": {
+                    "saleBillId": {
+                        "$oid": "65f9ac5ace4719203cae220a"
+                    },
+                    "billNumber": "SB-AMO-2024-742",
+                    "saleBillType": "SalesBill"
+                },
+                "updatedAt": {
+                    "$date": "2024-03-19T15:17:43.380Z"
+                },
+                "_id": {
+                    "$oid": "65ee955321efb6a7300cf40e"
+                }
+            },
+            {
+                "saleBillId": {
+                    "$oid": "65fad746ce4719203cb17b42"
+                },
+                "saleBillNumber": "SB-AMO-2024-816",
+                "sellingPrice": 394.9995,
+                "soldByScancodeMatched": true,
+                "taxes": [
+                    {
+                        "taxId": {
+                            "$oid": "633ea081d7f9288a4d42cd7b"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "CGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65fad8dece4719203cb19375"
+                        }
+                    },
+                    {
+                        "taxId": {
+                            "$oid": "633ea079d7f9288a4d42cd7a"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "SGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65fad8dece4719203cb19376"
+                        }
+                    }
+                ],
+                "returnBillId": null,
+                "returnBillNumber": null,
+                "isPackOpened": false,
+                "returnUnitSize": null,
+                "stockMoveRequestId": null,
+                "scanCode": "20240311105311",
+                "baseSellingPrice": 376.19,
+                "stockType": "Sale",
+                "productStatus": "Sold",
+                "createdVia": "Batches and pricing",
+                "inwardId": null,
+                "cellName": null,
+                "blockId": null,
+                "cellId": null,
+                "storageBlockName": null,
+                "metaData": {
+                    "saleBillId": {
+                        "$oid": "65fad746ce4719203cb17b42"
+                    },
+                    "billNumber": "SB-AMO-2024-816",
+                    "saleBillType": "SalesBill"
+                },
+                "updatedAt": {
+                    "$date": "2024-03-20T12:38:54.015Z"
+                },
+                "_id": {
+                    "$oid": "65ee955321efb6a7300cf40f"
+                }
+            },
+            {
+                "saleBillId": {
+                    "$oid": "65ff97beba2396cfb6d6c641"
+                },
+                "saleBillNumber": "SB-AMO-2024-1194",
+                "sellingPrice": 394.9995,
+                "soldByScancodeMatched": true,
+                "taxes": [
+                    {
+                        "taxId": {
+                            "$oid": "633ea081d7f9288a4d42cd7b"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "CGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65ff9a70ba2396cfb6d6ca70"
+                        }
+                    },
+                    {
+                        "taxId": {
+                            "$oid": "633ea079d7f9288a4d42cd7a"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "SGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "65ff9a70ba2396cfb6d6ca71"
+                        }
+                    }
+                ],
+                "returnBillId": null,
+                "returnBillNumber": null,
+                "isPackOpened": false,
+                "returnUnitSize": null,
+                "stockMoveRequestId": null,
+                "scanCode": "20240311105311",
+                "baseSellingPrice": 376.19,
+                "stockType": "Sale",
+                "productStatus": "Sold",
+                "createdVia": "Batches and pricing",
+                "inwardId": null,
+                "cellName": null,
+                "blockId": null,
+                "cellId": null,
+                "storageBlockName": null,
+                "metaData": {
+                    "saleBillId": {
+                        "$oid": "65ff97beba2396cfb6d6c641"
+                    },
+                    "billNumber": "SB-AMO-2024-1194",
+                    "saleBillType": "SalesBill"
+                },
+                "updatedAt": {
+                    "$date": "2024-03-24T03:13:52.241Z"
+                },
+                "_id": {
+                    "$oid": "65ee955321efb6a7300cf410"
+                }
+            },
+            {
+                "saleBillId": {
+                    "$oid": "66015d62ba2396cfb6de38f0"
+                },
+                "saleBillNumber": "SB-AMO-2024-1403",
+                "sellingPrice": 394.9995,
+                "soldByScancodeMatched": true,
+                "taxes": [
+                    {
+                        "taxId": {
+                            "$oid": "633ea081d7f9288a4d42cd7b"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "CGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "66015e1bba2396cfb6de3a42"
+                        }
+                    },
+                    {
+                        "taxId": {
+                            "$oid": "633ea079d7f9288a4d42cd7a"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "SGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "66015e1bba2396cfb6de3a43"
+                        }
+                    }
+                ],
+                "returnBillId": null,
+                "returnBillNumber": null,
+                "isPackOpened": false,
+                "returnUnitSize": null,
+                "stockMoveRequestId": null,
+                "scanCode": "20240311105311",
+                "baseSellingPrice": 376.19,
+                "stockType": "Sale",
+                "productStatus": "Sold",
+                "createdVia": "Batches and pricing",
+                "inwardId": null,
+                "cellName": null,
+                "blockId": null,
+                "cellId": null,
+                "storageBlockName": null,
+                "metaData": {
+                    "saleBillId": {
+                        "$oid": "66015d62ba2396cfb6de38f0"
+                    },
+                    "billNumber": "SB-AMO-2024-1403",
+                    "saleBillType": "SalesBill"
+                },
+                "updatedAt": {
+                    "$date": "2024-03-25T11:20:59.126Z"
+                },
+                "_id": {
+                    "$oid": "65ee955321efb6a7300cf413"
+                }
+            },
+            {
+                "saleBillId": {
+                    "$oid": "660233aa483d6540a7097b8d"
+                },
+                "saleBillNumber": "SB-AMO-2024-1469",
+                "sellingPrice": 394.9995,
+                "soldByScancodeMatched": true,
+                "taxes": [
+                    {
+                        "taxId": {
+                            "$oid": "633ea081d7f9288a4d42cd7b"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "CGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "66023420483d6540a7097c05"
+                        }
+                    },
+                    {
+                        "taxId": {
+                            "$oid": "633ea079d7f9288a4d42cd7a"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "SGST",
+                        "taxPercentage": 2.5,
+                        "_id": {
+                            "$oid": "66023420483d6540a7097c06"
+                        }
+                    }
+                ],
+                "returnBillId": null,
+                "returnBillNumber": null,
+                "isPackOpened": false,
+                "returnUnitSize": null,
+                "stockMoveRequestId": null,
+                "scanCode": "20240311105311",
+                "baseSellingPrice": 376.19,
+                "stockType": "Sale",
+                "productStatus": "Sold",
+                "createdVia": "Batches and pricing",
+                "inwardId": null,
+                "cellName": null,
+                "blockId": null,
+                "cellId": null,
+                "storageBlockName": null,
+                "metaData": {
+                    "saleBillId": {
+                        "$oid": "660233aa483d6540a7097b8d"
+                    },
+                    "billNumber": "SB-AMO-2024-1469",
+                    "saleBillType": "SalesBill"
+                },
+                "updatedAt": {
+                    "$date": "2024-03-26T02:34:08.266Z"
+                },
+                "_id": {
+                    "$oid": "65fbd095ce4719203cb4c4b1"
+                }
+            }
+        ],
+        "currentStock": {
+            "salesStock": 0,
+            "lockedStock": 0,
+            "soldStock": 16,
+            "transferedStock": 0,
+            "convertedStock": 0,
+            "returnStock": 0,
+            "recycleStock": 0,
+            "scrapStock": 0,
+            "damagedStock": 0
+        },
+        "approvalStatus": "auto approved",
+        "createdBy": {
+            "userId": {
+                "$oid": "65eda07d21efb6a7300c6fa5"
+            },
+            "name": "Anusuya A"
+        },
+        "isDeleted": false,
+        "oldBatchNumber": [],
+        "createdAt": {
+            "$date": "2024-03-11T05:23:31.610Z"
+        },
+        "updatedAt": {
+            "$date": "2025-04-18T04:43:09.000Z"
+        },
+        "manufacturerBarcode": "",
+        "manufacturerBatchNumber": "",
+        "sellingPrice": 394,
+        "grossROIAmount": "29.5",
+        "grossROIPercentage": "7.284",
+        "netROIAmount": "29.5",
+        "netROIPercentage": "7.856",
+        "processedByScript": true,
+        "baseSellingPrice": 376.19,
+        "purchasePrice": 375.5,
+        "productCategoryName": "Rice varieties",
+        "storeName": "Annur SS Mart - Annur mill outlet "
+    }
+]
+
+sales_bills collection ={
+    {
+        "_id": {
+            "$oid": "65eee7ec21efb6a7300d7839"
+        },
+        "offlineId": "bb6a6840-df98-11ee-8519-73134a441b96_65ee870721efb6a7300c945a_65eda46021efb6a7300c8aed",
+        "offlineBillNumber": "TSB-AMO-HEM-240311111418403",
+        "storeId": {
+            "$oid": "65ee870721efb6a7300c945a"
+        },
+        "businessUnitId": null,
+        "businessUnitName": null,
+        "businessUnitAddress": null,
+        "businessUnitGSTNumber": null,
+        "businessUnitCinNumber": null,
+        "businessUnitPanNumber": null,
+        "businessUnitMobile": null,
+        "businessUnitEmail": null,
+        "businessUnitGpayUPI_Id": null,
+        "businessUnitGpayUPI_No": null,
+        "UPIQR": null,
+        "eInvoiceQR": null,
+        "businessUnitBankDetails": {
+            "accountName": null,
+            "accountNumber": null,
+            "bankName": null,
+            "branchName": null,
+            "bankIFSC": null
+        },
+        "saleBillNumber": "SB-AMO-2024-002",
+        "saleBillType": "SalesBill",
+        "invoiceNumber": null,
+        "podBillNumber": null,
+        "saleBillDate": {
+            "$date": "2024-03-11T11:16:31.434Z"
+        },
+        "fromSalesOrderId": null,
+        "fromProformaInvoiceId": null,
+        "fromEstimateId": null,
+        "saleIncharge": {
+            "userId": {
+                "$oid": "65eda46021efb6a7300c8aed"
+            },
+            "name": "Hema N"
+        },
+        "customer": {
+            "customerId": {
+                "$oid": "65ed948414d9af7107f52a85"
+            },
+            "customerOfflineId": "65ed948414d9af7107f52a85",
+            "customerType": "RETAIL",
+            "displayName": "R. SANMUGAM",
+            "customerName": "R. SANMUGAM",
+            "phoneNumber": "9942476092",
+            "emailAddress": null,
+            "billingAddress": null,
+            "deliveryAddress": null,
+            "GSTIN": null,
+            "_id": {
+                "$oid": "65eee80f21efb6a7300d78d7"
+            }
+        },
+        "deliveryType": "TakeHome",
+        "deliveryChallanNumber": null,
+        "billProducts": [
+            {
+                "productCategoryId": {
+                    "$oid": "65ed8ba77e37aaa029a1efb4"
+                },
+                "masterProductId": {
+                    "$oid": "65ed922af05b9a1188ffdef2"
+                },
+                "bundleGiftItem": null,
+                "productCode": "139",
+                "productName": "Thavidu 50kg",
+                "displayName": "Thavidu 50kg",
+                "invoiceDisplayName": "Thavidu 50kg",
+                "HSNCode": "23099020",
+                "inventoryType": "Product",
+                "unit": {
+                    "unitId": {
+                        "$oid": "61fa614a51e5e67f94bc67dd"
+                    },
+                    "unitName": "no",
+                    "unitSymbol": "nos",
+                    "unitSize": 1
+                },
+                "isVariableSize": false,
+                "unitMaximumPrice": 840,
+                "baseSellingPrice": 650,
+                "sellingPrice": 650,
+                "discountAmount": 0,
+                "sellingPriceWithDiscount": 650,
+                "taxAmount": 0,
+                "productQuantity": 1,
+                "taxes": [
+                    {
+                        "taxId": {
+                            "$oid": "633eab1ed7f9288a4d42cd8c"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "Nil",
+                        "taxPercentage": 0,
+                        "_id": {
+                            "$oid": "65eee80f21efb6a7300d78d3"
+                        }
+                    },
+                    {
+                        "taxId": {
+                            "$oid": "633eab1ed7f9288a4d42cd8c"
+                        },
+                        "taxRegistrarName": "GST",
+                        "taxGroup": "Nil",
+                        "taxPercentage": 0,
+                        "_id": {
+                            "$oid": "65eee80f21efb6a7300d78d4"
+                        }
+                    }
+                ],
+                "salesTaxes": null,
+                "batchProducts": [
+                    {
+                        "productId": {
+                            "$oid": "65ee9f1721efb6a7300d0486"
+                        },
+                        "quantity": 1,
+                        "scanCodes": [
+                            {
+                                "scanCode": "20240311113455",
+                                "quantity": 1,
+                                "_id": {
+                                    "$oid": "65eee80f21efb6a7300d78d6"
+                                }
+                            }
+                        ],
+                        "batchNumber": "20240311113455",
+                        "packedDate": {
+                            "$date": "2024-03-01T05:30:00.000Z"
+                        },
+                        "expiryDate": null,
+                        "_id": {
+                            "$oid": "65eee80f21efb6a7300d78d5"
+                        }
+                    }
+                ],
+                "productDiscounts": null,
+                "totalDiscountPrice": 0,
+                "productBasedDiscount": 0,
+                "totalTaxAmount": 0,
+                "totalTaxPercentage": 0,
+                "totalProductPrice": 650,
+                "stockHolder": {
+                    "branchtype": "Store",
+                    "storeId": {
+                        "$oid": "65ee870721efb6a7300c945a"
+                    },
+                    "storeName": "Annur mill outlet "
+                },
+                "isGift": false,
+                "giftOfferId": null,
+                "comboOfferId": null,
+                "comboBaseSellingPrice": null,
+                "isCombo": null,
+                "_id": {
+                    "$oid": "65eee80f21efb6a7300d78d2"
+                },
+                "appliedCombos": []
+            }
+        ],
+        "productSubTotal": 650,
+        "billDiscounts": null,
+        "billManualDiscount": null,
+        "totalDiscountAmount": 0,
+        "totalTaxableAmount": 650,
+        "totalTaxAmount": 0,
+        "billTaxSummary": [
+            {
+                "taxName": "Nil",
+                "taxPercentage": 0,
+                "taxAmount": 0,
+                "_id": {
+                    "$oid": "65eee80f21efb6a7300d78d1"
+                }
+            }
+        ],
+        "totalBillAmount": 650,
+        "frightCharge": 0,
+        "otherCharges": 0,
+        "billRoundOff": 0,
+        "netPayableAmount": 650,
+        "tcsAmount": null,
+        "totalSavedAmount": 190,
+        "payments": [
+            {
+                "paymentType": "Cash",
+                "upiType": null,
+                "reference": null,
+                "transferType": null,
+                "cardNumber": null,
+                "paymentAmount": 650,
+                "totalPaidAmount": 700,
+                "paymentNote": null,
+                "paymentOption": "Accounts",
+                "ledgerType": "Cash",
+                "ledgerTransactionId": {
+                    "$oid": "65eee80f21efb6a7300d78cd"
+                },
+                "ledgerId": {
+                    "$oid": "65ee870721efb6a7300c9474"
+                },
+                "posDeviceId": null,
+                "posSubledgerId": null,
+                "upiId": null,
+                "upiSubledgerId": null,
+                "_id": {
+                    "$oid": "65eee80f21efb6a7300d78d0"
+                },
+                "createdAt": {
+                    "$date": "2024-03-11T11:16:31.429Z"
+                }
+            }
+        ],
+        "paymentStatus": "completed",
+        "appliedComboProducts": [],
+        "appliedComboDetails": [],
+        "billCurrency": {
+            "currencyCode": "INR",
+            "currencySymbol": "₹"
+        },
+        "loyaltyCurrencyValue": 1,
+        "walletCredit": null,
+        "balanceToCustomer": 50,
+        "isCustomerBalancePaidByDirectCash": true,
+        "loyaltyCalculationFlag": true,
+        "tempLoyaltyPoint": null,
+        "tempLoyaltyPointBalance": null,
+        "calculatedLoyaltyPoint": 0,
+        "displayedLoyaltyAmount": 0,
+        "displayedLoyaltyPoint": 0,
+        "displayedWalletAmount": 0,
+        "displayedOutStandingAmount": 0,
+        "billNotes": null,
+        "billPaymentDueDate": null,
+        "termsConditions": null,
+        "approvalStatus": "auto approved",
+        "isVoid": false,
+        "isWriteOff": false,
+        "eInvoice": null,
+        "eWayBill": null,
+        "eInvoiceStatus": null,
+        "eWayBillStatus": null,
+        "vehicleNumber": null,
+        "distanceInKm": null,
+        "userFlag": false,
+        "adminFlag": false,
+        "status": "completed",
+        "podStatus": null,
+        "isArchived": false,
+        "isDeleted": false,
+        "appName": "Store",
+        "creditNoteId": null,
+        "creditNoteAmount": null,
+        "updatedAt": {
+            "$date": "2024-12-15T16:28:28.332Z"
+        },
+        "returnBills": [],
+        "createdAt": {
+            "$date": "2024-03-11T11:15:56.536Z"
+        },
+        "selectedNotifications": {}
+    }
+}
